@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family:  “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+}
+
+.wrap{
+    border: 20px solid #fff;
+    background-color: #3b3f45;
+}
+
+.header{
+    padding: 25px;
+    background-color: #4a4f56;
+    color: #ea7c7c;
+    text-align: center;
+}
+
+.header-text{
+    font-size: 20px;
+}
+
+.main{
+    padding-bottom: 25px;
+}
+
+.box{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.form-list{
+    margin-top: 25px;
+}
+
+.form-item{
+    width: 700px;
+    padding: 15px;
+    background-color: #7a7593;
+    color: #fff;
+    font-size: 20px;
+}
+
+.form-item label{
+    padding-left: 10px;
+}
+
+.form-item:nth-child(even){
+    background-color: #88839e;
+}
+
+.form-item:hover{
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.form-item:active{
+    background-color: #ea7c7c;
+}
+
+label[for="check1"]:after{
+    content: " ( for the next lessons about CSS ) ";
+}
+
+label[for="check2"]:after{
+    content: " ( for more CSS manipulations ) ";
+}
+
+label[for="check3"]:after{
+    content: " ( because they are awesome ) ";
+}
+
+label[for="check4"]:after{
+    content: " ( hm... they always disappear ) ";
+}
+
+label[for="check6"]:after{
+    content: " ( for my friends ) ";
+}
+
+label[for="check1"]:after,
+label[for="check2"]:after,
+label[for="check3"]:after,
+label[for="check4"]:after,
+label[for="check6"]:after{
+    font-size: 15px;
+    color: #cdcbd3;
+}
+
+input:checked + label{
+    color: #a3a0b5;
+    text-decoration: line-through;
+}
+
+.footer{
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    border: none;
+    background-color: #4a4f56;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    color: #ea7c7c;
+}
